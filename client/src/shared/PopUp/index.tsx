@@ -1,10 +1,10 @@
 import React from 'react'
 
-import CloseImg from '../../assets/images/popup-close.svg';
-import SuccessImg from '../../assets/images/success.svg'
-import ErrorImg from '../../assets/images/error.svg';
-import AddToFavImg from '../../assets/images/addToFavorite.svg';
-import RemAtFavImg from '../../assets/images/rmAtFavorite.svg';
+import CloseImg from '../../app/assets/images/popup-close.svg';
+import SuccessImg from '../../app/assets/images/success.svg'
+import ErrorImg from '../../app/assets/images/error.svg';
+import AddToFavImg from '../../app/assets/images/addToFavorite.svg';
+import RemAtFavImg from '../../app/assets/images/rmAtFavorite.svg';
 
 
 
