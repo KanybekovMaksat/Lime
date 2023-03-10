@@ -1,10 +1,10 @@
-import React from 'react'
 
+import React from 'react'
+import './index.scss'
 
 const App = () => {
   return (
     <div>
-
     </div>
   )
 }
