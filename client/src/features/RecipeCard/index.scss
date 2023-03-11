@@ -55,6 +55,8 @@
 
         .RecipeCard__content-info {
             margin-bottom: 11px;
+            display: flex;
+            align-items: center;
 
             .RecipeCard__info-time {
                 padding: 3px 5px;

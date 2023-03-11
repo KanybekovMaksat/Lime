@@ -30,6 +30,7 @@ const RecipeCard = () => {
             <p>15 минут</p>
           </div>
           <div className="RecipeCard__info-rating">
+            <Stars stars={3.5} reviews={2}/>
           </div>
         </div>
       <div className="RecipeCard__content-product">
