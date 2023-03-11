@@ -1,0 +1,114 @@
+.RecipeCard {
+    max-width: 323px;
+
+    .RecipeCard__img {
+        position: relative;
+
+        width: 100%;
+        height: 250px;
+
+        overflow: hidden;
+
+        &:hover .RecipeCard__img-link {
+            bottom: 0px;
+            border-radius: 10px;
+        }
+
+        .RecipeCard__img-link {
+            position: absolute;
+            z-index: 1;
+
+            width: 100%;
+
+            padding: 125px 0px 15px 0px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            bottom: -100px;
+            background-image: linear-gradient(0deg, #a3ce28 10%, rgba(255, 255, 255, 0) 100%);
+            border-radius: 10px;
+
+            transition: all 0.4s ease-in-out;
+
+            a {
+                font-weight: 700;
+                font-size: 13px;
+                color: #333333;
+            }
+        }
+    }
+
+    .RecipeCard__img {
+        max-width: 323px;
+    }
+
+    .RecipeCard__content {
+        .RecipeCard__content-title {
+            margin: 21px 0px 8px 0px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            color: #333333;
+        }
+
+        .RecipeCard__content-info {
+            margin-bottom: 11px;
+
+            .RecipeCard__info-time {
+                padding: 3px 5px;
+                max-width: 85px;
+                max-height: 26px;
+                display: flex;
+                align-items: center;
+                background: #FFFFFF;
+                box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+
+                img {
+                    max-width: 14px;
+                    max-height: 14px;
+                }
+
+                p {
+                    margin-left: 10px;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #333333;
+                }
+            }
+        }
+
+        .RecipeCard__content-product {
+            display: flex;
+            align-items: center;
+            column-gap: 5px;
+
+            .RecipeCard__product-box {
+                padding: 2px;
+                width: 33px;
+                height: 33px;
+
+                background: #FFFFFF;
+                box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+            }
+
+            .RecipeCard__product-btn {
+                padding: 8px 20px;
+
+                border: none;
+                background: #A1D214;
+                border-radius: 5px;
+
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+                color: #333333;
+
+            }
+        }
+    }
+}

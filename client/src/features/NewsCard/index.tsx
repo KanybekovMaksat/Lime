@@ -1,7 +1,7 @@
 import './index.scss'
 import NewsImg from "../../app/assets/images/news.png";
 import { Link } from 'react-router-dom';
-import { NewsCardProps } from './NewsCard.interface';
+import { NewsCardProps } from './newscard.interface';
 
 
 const NewsCard = (data: NewsCardProps) => {
